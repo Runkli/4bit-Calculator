@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLK'
+Slack : -5.108
+TNS   : -51.500
+
+Type  : Slow 1200mV 85C Model Setup 'FSM:inst2|y_present[0]'
+Slack : -1.782
+TNS   : -5.070
+
+Type  : Slow 1200mV 85C Model Hold 'FSM:inst2|y_present[0]'
+Slack : -2.850
+TNS   : -8.460
+
+Type  : Slow 1200mV 85C Model Hold 'CLK'
+Slack : -1.429
+TNS   : -1.429
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -16.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'FSM:inst2|y_present[0]'
+Slack : -0.266
+TNS   : -2.339
+
+Type  : Slow 1200mV 0C Model Setup 'CLK'
+Slack : -4.495
+TNS   : -45.570
+
+Type  : Slow 1200mV 0C Model Setup 'FSM:inst2|y_present[0]'
+Slack : -1.666
+TNS   : -4.739
+
+Type  : Slow 1200mV 0C Model Hold 'FSM:inst2|y_present[0]'
+Slack : -2.511
+TNS   : -7.476
+
+Type  : Slow 1200mV 0C Model Hold 'CLK'
+Slack : -1.349
+TNS   : -1.349
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -16.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'FSM:inst2|y_present[0]'
+Slack : -0.127
+TNS   : -1.053
+
+Type  : Fast 1200mV 0C Model Setup 'CLK'
+Slack : -2.426
+TNS   : -23.496
+
+Type  : Fast 1200mV 0C Model Setup 'FSM:inst2|y_present[0]'
+Slack : -0.731
+TNS   : -2.057
+
+Type  : Fast 1200mV 0C Model Hold 'FSM:inst2|y_present[0]'
+Slack : -1.720
+TNS   : -5.089
+
+Type  : Fast 1200mV 0C Model Hold 'CLK'
+Slack : -0.937
+TNS   : -0.937
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -16.501
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'FSM:inst2|y_present[0]'
+Slack : -0.059
+TNS   : -0.383
+
+------------------------------------------------------------

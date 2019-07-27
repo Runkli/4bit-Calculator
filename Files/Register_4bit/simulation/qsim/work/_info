@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\aisan\Desktop\cng232 lab final aisan\Register_4bit\simulation\qsim
+vregister_4bit
+Z1 !s100 H2=JQ0:HGNgGSCj8og2iV0
+Z2 IkLLC7g__V9j5zoc9gNNzi2
+Z3 VOWQ3:j:O`fXKED@^NZ0:P0
+Z4 dC:\Users\aisan\Desktop\cng232 lab final aisan\Register_4bit\simulation\qsim
+Z5 w1558207756
+Z6 8Register_4bit.vo
+Z7 FRegister_4bit.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Register_4bit.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1558207756.661000
+Z12 !s107 Register_4bit.vo|
+!s101 -O0
+vregister_4bit_vlg_check_tst
+!i10b 1
+Z13 !s100 ZfAkl3hI57dO57UCzHSHe0
+Z14 I43A?Vk^Te_cK7K1jQ2@1a2
+Z15 V4Q@<f6Egm^i3iQ2oBg]G<2
+R4
+Z16 w1558207755
+Z17 8Register_4bit.vt
+Z18 FRegister_4bit.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z19 !s108 1558207756.734000
+Z20 !s107 Register_4bit.vt|
+Z21 !s90 -work|work|Register_4bit.vt|
+!s101 -O0
+R10
+vregister_4bit_vlg_sample_tst
+!i10b 1
+Z22 !s100 C99O^^F_2PH41NUI@UGcc2
+Z23 ILn5DX5a_YkXAcNPQ1Y@3m1
+Z24 V<b67Oj[4JjiEMdjId9S6I2
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vregister_4bit_vlg_vec_tst
+!i10b 1
+Z25 !s100 `nN76K<alV@gGQ1WC6P>G2
+Z26 IkB0o:1L4AZ>dQ@VA55W<D1
+Z27 V7WT<>_InXjA7Uc0g_9RYm0
+R4
+R16
+R17
+R18
+Z28 L0 211
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

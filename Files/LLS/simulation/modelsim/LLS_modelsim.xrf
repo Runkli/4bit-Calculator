@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/aisan/Desktop/cng232 lab final aisan/LLS/LLS.vhd
+source_file = 1, C:/Users/aisan/Desktop/cng232 lab final aisan/LLS/LLS_Waveform.vwf
+source_file = 1, C:/Users/aisan/Desktop/cng232 lab final aisan/LLS/db/LLS.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = LLS
+instance = comp, \lls_out[0]~output , lls_out[0]~output, LLS, 1
+instance = comp, \lls_out[1]~output , lls_out[1]~output, LLS, 1
+instance = comp, \lls_out[2]~output , lls_out[2]~output, LLS, 1
+instance = comp, \lls_out[3]~output , lls_out[3]~output, LLS, 1
+instance = comp, \lls_in[0]~input , lls_in[0]~input, LLS, 1
+instance = comp, \lls_in[1]~input , lls_in[1]~input, LLS, 1
+instance = comp, \lls_in[2]~input , lls_in[2]~input, LLS, 1
+instance = comp, \lls_in[3]~input , lls_in[3]~input, LLS, 1

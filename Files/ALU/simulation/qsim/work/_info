@@ -1,0 +1,161 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\aisan\Desktop\cng232 lab final aisan\ALU\simulation\qsim
+vALU
+Z1 IZkcen<55Ne^Bzio`d7Zj73
+Z2 V2ZegG`0T57KO=gP0NTHh72
+Z3 dC:\Users\aisan\Desktop\cng232 lab final aisan\ALU\simulation\qsim
+Z4 w1558202890
+Z5 8ALU.vo
+Z6 FALU.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@a@l@u
+Z10 !s100 AYHRiI7kOIR1V9PK]I4C`1
+Z11 !s108 1558202892.205000
+Z12 !s107 ALU.vo|
+Z13 !s90 -work|work|ALU.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+valu
+Z14 !s100 <zU5dOl@Fj6FAR256M:7_3
+Z15 ICg27KYlbd[dIGX@>@d7?52
+Z16 VIXhD9OJ^8_U=oac?B`X8G1
+R3
+Z17 w1558204437
+R5
+R6
+L0 31
+R7
+r1
+31
+R13
+R8
+!i10b 1
+!s85 0
+Z18 !s108 1558204438.449000
+R12
+!s101 -O0
+valu_vlg_check_tst
+!i10b 1
+!s100 22`ALc08G^D^>V]ME@=dN1
+IUGE`j1UXE9PHM3]VH[cce0
+Z19 VclOT;9mJbj:a?:X;TdN3H0
+R3
+Z20 w1558204436
+Z21 8ALU.vt
+Z22 FALU.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z23 !s108 1558204438.610000
+Z24 !s107 ALU.vt|
+Z25 !s90 -work|work|ALU.vt|
+!s101 -O0
+R8
+vALU_vlg_check_tst
+Z26 IK1>K0HflFE=>]eU^f=iT=1
+Z27 VAgoAfR8gPh_<31EOS=bP11
+R3
+Z28 w1558202889
+R21
+R22
+L0 63
+R7
+r1
+31
+Z29 !s108 1558202892.392000
+Z30 !s107 ALU.vt|
+R25
+R8
+Z31 n@a@l@u_vlg_check_tst
+Z32 !s100 PTB@3MRCWCcLWmd9H31hH1
+!i10b 1
+!s85 0
+!s101 -O0
+valu_vlg_sample_tst
+!i10b 1
+Z33 !s100 ;T18^F9?H:0MRI1oWA4[o0
+Z34 I?:9Xf=n;JejjjaALPCK4I2
+Z35 V;lnlkVaTeU=IE:gFGLY@X1
+R3
+R20
+R21
+R22
+L0 29
+R7
+r1
+!s85 0
+31
+R23
+R24
+R25
+!s101 -O0
+R8
+vALU_vlg_sample_tst
+Z36 If1K=3Fj5PUHl;6UZWUN<d0
+Z37 VLEUY;1>Mm1mEV_`P6:3=I1
+R3
+R28
+R21
+R22
+L0 29
+R7
+r1
+31
+R29
+R30
+R25
+R8
+Z38 n@a@l@u_vlg_sample_tst
+Z39 !s100 :<?kI`z]_NociIK`2UL<B1
+!i10b 1
+!s85 0
+!s101 -O0
+valu_vlg_vec_tst
+!i10b 1
+!s100 BClkgE992]<7`Y?e4COCA3
+IYSXFVa1@J`Z[9SC^YjYJ=3
+Z40 VKh<<g<fN<83>nOE>KA>;A3
+R3
+R20
+R21
+R22
+Z41 L0 238
+R7
+r1
+!s85 0
+31
+R23
+R24
+R25
+!s101 -O0
+R8
+vALU_vlg_vec_tst
+Z42 I1ZPo`oK<GQDh?QI=z`Q`62
+Z43 V>bFnnU[^IecCM5^<l3;]W0
+R3
+R28
+R21
+R22
+R41
+R7
+r1
+31
+R29
+R30
+R25
+R8
+Z44 n@a@l@u_vlg_vec_tst
+Z45 !s100 ??b[n^z[ahfehFLaCag7f3
+!i10b 1
+!s85 0
+!s101 -O0

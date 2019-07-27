@@ -1,0 +1,250 @@
+$comment
+	File created using the following command:
+		vcd file ARS.msim.vcd -direction
+$end
+$date
+	Sat May 18 22:04:03 2019
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module ARS_vlg_vec_tst $end
+$var reg 4 ! ars_in [3:0] $end
+$var wire 1 " ars_out [3] $end
+$var wire 1 # ars_out [2] $end
+$var wire 1 $ ars_out [1] $end
+$var wire 1 % ars_out [0] $end
+$var wire 1 & sampler $end
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var tri1 1 * devclrn $end
+$var tri1 1 + devpor $end
+$var tri1 1 , devoe $end
+$var wire 1 - ars_in[0]~input_o $end
+$var wire 1 . ars_out[0]~output_o $end
+$var wire 1 / ars_out[1]~output_o $end
+$var wire 1 0 ars_out[2]~output_o $end
+$var wire 1 1 ars_out[3]~output_o $end
+$var wire 1 2 ars_in[1]~input_o $end
+$var wire 1 3 ars_in[2]~input_o $end
+$var wire 1 4 ars_in[3]~input_o $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b111 !
+1%
+1$
+0#
+0"
+x&
+0'
+1(
+x)
+1*
+1+
+1,
+1-
+1.
+1/
+00
+01
+12
+13
+04
+$end
+#50000
+b110 !
+0-
+0&
+#100000
+b1110 !
+b1010 !
+1&
+03
+14
+0/
+11
+10
+0$
+1"
+1#
+#150000
+b1011 !
+b11 !
+b111 !
+1-
+0&
+13
+04
+1/
+01
+00
+1$
+0"
+0#
+#200000
+b101 !
+b1101 !
+1&
+02
+14
+0.
+11
+10
+0%
+1"
+1#
+#250000
+b1100 !
+b1000 !
+b0 !
+0-
+0&
+03
+04
+0/
+01
+00
+0$
+0"
+0#
+#300000
+b1 !
+b1001 !
+1-
+1&
+14
+11
+10
+1"
+1#
+#350000
+b1101 !
+b1100 !
+0-
+0&
+13
+1/
+1$
+#400000
+b1110 !
+b1010 !
+1&
+12
+03
+1.
+0/
+1%
+0$
+#450000
+b10 !
+0&
+04
+01
+00
+0"
+0#
+#500000
+b0 !
+b100 !
+1&
+02
+13
+0.
+1/
+0%
+1$
+#550000
+b110 !
+0&
+12
+1.
+1%
+#600000
+b111 !
+1-
+1&
+#650000
+b1111 !
+b1011 !
+b1001 !
+b1000 !
+0-
+0&
+02
+03
+14
+0.
+0/
+11
+10
+0%
+0$
+1"
+1#
+#700000
+b1010 !
+1&
+12
+1.
+1%
+#750000
+b10 !
+b11 !
+b1 !
+1-
+0&
+02
+04
+0.
+01
+00
+0%
+0"
+0#
+#800000
+b1001 !
+b1000 !
+b1010 !
+0-
+1&
+12
+14
+1.
+11
+10
+1%
+1"
+1#
+#900000
+b10 !
+b11 !
+1-
+0&
+04
+01
+00
+0"
+0#
+#950000
+b1 !
+b1001 !
+b1000 !
+0-
+1&
+02
+14
+0.
+11
+10
+0%
+1"
+1#
+#1000000

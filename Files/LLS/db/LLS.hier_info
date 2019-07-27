@@ -1,0 +1,11 @@
+|LLS
+lls_in[0] => lls_out[1].DATAIN
+lls_in[1] => lls_out[2].DATAIN
+lls_in[2] => lls_out[3].DATAIN
+lls_in[3] => ~NO_FANOUT~
+lls_out[0] <= <GND>
+lls_out[1] <= lls_in[0].DB_MAX_OUTPUT_PORT_TYPE
+lls_out[2] <= lls_in[1].DB_MAX_OUTPUT_PORT_TYPE
+lls_out[3] <= lls_in[2].DB_MAX_OUTPUT_PORT_TYPE
+
+

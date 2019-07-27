@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\aisan\Desktop\cng232 lab final aisan\Datapath\simulation\qsim
+vDatapath
+Z1 !s100 EOModQY4m@7ce@F?I8Zdd3
+Z2 IToaf<A_32F42m`1CR`_c03
+Z3 VY<lR`XEhiR84I7YBZ06L:1
+Z4 dC:\Users\aisan\Desktop\cng232 lab final aisan\Datapath\simulation\qsim
+Z5 w1558216739
+Z6 8Datapath.vo
+Z7 FDatapath.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Datapath.vo|
+Z10 o-work work -O0
+Z11 n@datapath
+!i10b 1
+!s85 0
+Z12 !s108 1558216740.108000
+Z13 !s107 Datapath.vo|
+!s101 -O0
+vDatapath_vlg_check_tst
+!i10b 1
+Z14 !s100 Qc=z;kDbi6TBgGcmjHgDW1
+Z15 IA5f6Ie4gGHG]lgfjDboTi0
+Z16 VeBkLoNLk_TS1`e<hTCQWJ1
+R4
+Z17 w1558216738
+Z18 8Datapath.vt
+Z19 FDatapath.vt
+L0 73
+R8
+r1
+!s85 0
+31
+Z20 !s108 1558216740.189000
+Z21 !s107 Datapath.vt|
+Z22 !s90 -work|work|Datapath.vt|
+!s101 -O0
+R10
+Z23 n@datapath_vlg_check_tst
+vDatapath_vlg_sample_tst
+!i10b 1
+Z24 !s100 h7zQbQ_om<0XHT3:VGUZl3
+Z25 I>TmcHD?l5@IXzFPh>LhZV1
+Z26 V5^O=Z<j0<`UFagTKPjzWY1
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@datapath_vlg_sample_tst
+vDatapath_vlg_vec_tst
+!i10b 1
+!s100 IhS;]1NK^zjTBoo1o_0`a1
+I=K174VSHGZg7RABdh:le]1
+Z28 V4LSCebLYh<Lb7?m[@][QW1
+R4
+R17
+R18
+R19
+Z29 L0 248
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@datapath_vlg_vec_tst

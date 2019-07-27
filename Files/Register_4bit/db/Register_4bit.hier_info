@@ -1,0 +1,23 @@
+|Register_4bit
+Data[0] => Output~4.DATAB
+Data[1] => Output~3.DATAB
+Data[2] => Output~2.DATAB
+Data[3] => Output~1.DATAB
+load => Output~1.OUTPUTSELECT
+load => Output~2.OUTPUTSELECT
+load => Output~3.OUTPUTSELECT
+load => Output~4.OUTPUTSELECT
+Reset => Output~0.OUTPUTSELECT
+Reset => Output~5.OUTPUTSELECT
+Reset => Output~6.OUTPUTSELECT
+Reset => Output~7.OUTPUTSELECT
+Clk => Output[0]~reg0.CLK
+Clk => Output[1]~reg0.CLK
+Clk => Output[2]~reg0.CLK
+Clk => Output[3]~reg0.CLK
+Output[0] <= Output[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Output[1] <= Output[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Output[2] <= Output[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Output[3] <= Output[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

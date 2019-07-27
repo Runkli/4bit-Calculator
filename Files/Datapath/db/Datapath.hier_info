@@ -1,0 +1,266 @@
+|Datapath
+Cout <= alu:inst6.Cout
+Cin => alu:inst6.Cin
+ALU_OP[0] => alu:inst6.ALU_Op[0]
+ALU_OP[1] => alu:inst6.ALU_Op[1]
+ALU_OP[2] => alu:inst6.ALU_Op[2]
+Input_Select[0] => mux8to1:inst.s[0]
+Input_Select[1] => mux8to1:inst.s[1]
+Input_Select[2] => mux8to1:inst.s[2]
+Load_A => register_4bit:inst2.load
+Reset => register_4bit:inst2.Reset
+Reset => register_4bit:inst5.Reset
+Clk => register_4bit:inst2.Clk
+Clk => register_4bit:inst5.Clk
+Load_B => register_4bit:inst5.load
+DIN[0] => mux8to1:inst.w6[0]
+DIN[0] => inst13[0].IN0
+DIN[1] => mux8to1:inst.w6[1]
+DIN[1] => inst13[1].IN0
+DIN[2] => mux8to1:inst.w6[2]
+DIN[2] => inst13[2].IN0
+DIN[3] => mux8to1:inst.w6[3]
+DIN[3] => inst13[3].IN0
+Y_Select => mux4x2to1:inst4.s
+DOUT[0] <= register_4bit:inst5.Output[0]
+DOUT[1] <= register_4bit:inst5.Output[1]
+DOUT[2] <= register_4bit:inst5.Output[2]
+DOUT[3] <= register_4bit:inst5.Output[3]
+
+
+|Datapath|alu:inst6
+ALU_Op[0] => Mux0.IN10
+ALU_Op[0] => Mux1.IN9
+ALU_Op[0] => Mux2.IN9
+ALU_Op[0] => Mux3.IN9
+ALU_Op[0] => Mux4.IN9
+ALU_Op[1] => Mux0.IN9
+ALU_Op[1] => Mux1.IN8
+ALU_Op[1] => Mux2.IN8
+ALU_Op[1] => Mux3.IN8
+ALU_Op[1] => Mux4.IN8
+ALU_Op[2] => Mux0.IN8
+ALU_Op[2] => Mux1.IN7
+ALU_Op[2] => Mux2.IN7
+ALU_Op[2] => Mux3.IN7
+ALU_Op[2] => Mux4.IN7
+X[0] => Add0.IN4
+X[0] => Add2.IN8
+X[0] => Outputt.IN0
+X[0] => Outputt.IN0
+X[0] => Outputt.IN0
+X[0] => Outputt.IN0
+X[0] => Mux4.IN10
+X[0] => Add4.IN4
+X[1] => Add0.IN3
+X[1] => Add2.IN7
+X[1] => Outputt.IN0
+X[1] => Outputt.IN0
+X[1] => Outputt.IN0
+X[1] => Outputt.IN0
+X[1] => Mux3.IN10
+X[1] => Add4.IN3
+X[2] => Add0.IN2
+X[2] => Add2.IN6
+X[2] => Outputt.IN0
+X[2] => Outputt.IN0
+X[2] => Outputt.IN0
+X[2] => Outputt.IN0
+X[2] => Mux2.IN10
+X[2] => Add4.IN2
+X[3] => Add0.IN1
+X[3] => Add2.IN5
+X[3] => Outputt.IN0
+X[3] => Outputt.IN0
+X[3] => Outputt.IN0
+X[3] => Outputt.IN0
+X[3] => Mux1.IN10
+X[3] => Add4.IN1
+Y[0] => Add0.IN8
+Y[0] => Add4.IN8
+Y[0] => Outputt.IN1
+Y[0] => Outputt.IN1
+Y[0] => Outputt.IN1
+Y[0] => Outputt.IN1
+Y[0] => Add2.IN4
+Y[1] => Add0.IN7
+Y[1] => Add4.IN7
+Y[1] => Outputt.IN1
+Y[1] => Outputt.IN1
+Y[1] => Outputt.IN1
+Y[1] => Outputt.IN1
+Y[1] => Add2.IN3
+Y[2] => Add0.IN6
+Y[2] => Add4.IN6
+Y[2] => Outputt.IN1
+Y[2] => Outputt.IN1
+Y[2] => Outputt.IN1
+Y[2] => Outputt.IN1
+Y[2] => Add2.IN2
+Y[3] => Add0.IN5
+Y[3] => Add4.IN5
+Y[3] => Outputt.IN1
+Y[3] => Outputt.IN1
+Y[3] => Outputt.IN1
+Y[3] => Outputt.IN1
+Y[3] => Add2.IN1
+Cin => Add1.IN10
+Cin => Add3.IN10
+Cin => Add5.IN10
+Cout <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+ALU_Out[0] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+ALU_Out[1] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+ALU_Out[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+ALU_Out[3] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Datapath|mux8to1:inst
+s[0] => Mux0.IN2
+s[0] => Mux1.IN2
+s[0] => Mux2.IN2
+s[0] => Mux3.IN2
+s[1] => Mux0.IN1
+s[1] => Mux1.IN1
+s[1] => Mux2.IN1
+s[1] => Mux3.IN1
+s[2] => Mux0.IN0
+s[2] => Mux1.IN0
+s[2] => Mux2.IN0
+s[2] => Mux3.IN0
+w0[0] => Mux3.IN3
+w0[1] => Mux2.IN3
+w0[2] => Mux1.IN3
+w0[3] => Mux0.IN3
+w1[0] => Mux3.IN4
+w1[1] => Mux2.IN4
+w1[2] => Mux1.IN4
+w1[3] => Mux0.IN4
+w2[0] => Mux3.IN5
+w2[1] => Mux2.IN5
+w2[2] => Mux1.IN5
+w2[3] => Mux0.IN5
+w3[0] => Mux3.IN6
+w3[1] => Mux2.IN6
+w3[2] => Mux1.IN6
+w3[3] => Mux0.IN6
+w4[0] => Mux3.IN7
+w4[1] => Mux2.IN7
+w4[2] => Mux1.IN7
+w4[3] => Mux0.IN7
+w5[0] => Mux3.IN8
+w5[1] => Mux2.IN8
+w5[2] => Mux1.IN8
+w5[3] => Mux0.IN8
+w6[0] => Mux3.IN9
+w6[1] => Mux2.IN9
+w6[2] => Mux1.IN9
+w6[3] => Mux0.IN9
+w7[0] => Mux3.IN10
+w7[1] => Mux2.IN10
+w7[2] => Mux1.IN10
+w7[3] => Mux0.IN10
+f[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Datapath|register_4bit:inst2
+Data[0] => Output.DATAB
+Data[1] => Output.DATAB
+Data[2] => Output.DATAB
+Data[3] => Output.DATAB
+load => Output.OUTPUTSELECT
+load => Output.OUTPUTSELECT
+load => Output.OUTPUTSELECT
+load => Output.OUTPUTSELECT
+Reset => Output.OUTPUTSELECT
+Reset => Output.OUTPUTSELECT
+Reset => Output.OUTPUTSELECT
+Reset => Output.OUTPUTSELECT
+Clk => Output[0]~reg0.CLK
+Clk => Output[1]~reg0.CLK
+Clk => Output[2]~reg0.CLK
+Clk => Output[3]~reg0.CLK
+Output[0] <= Output[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Output[1] <= Output[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Output[2] <= Output[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Output[3] <= Output[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Datapath|LLS:inst8
+lls_in[0] => lls_out[1].DATAIN
+lls_in[1] => lls_out[2].DATAIN
+lls_in[2] => lls_out[3].DATAIN
+lls_in[3] => ~NO_FANOUT~
+lls_out[0] <= <GND>
+lls_out[1] <= lls_in[0].DB_MAX_OUTPUT_PORT_TYPE
+lls_out[2] <= lls_in[1].DB_MAX_OUTPUT_PORT_TYPE
+lls_out[3] <= lls_in[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Datapath|LRS:inst7
+Input[0] => ~NO_FANOUT~
+Input[1] => Output[0].DATAIN
+Input[2] => Output[1].DATAIN
+Input[3] => Output[2].DATAIN
+Output[0] <= Input[1].DB_MAX_OUTPUT_PORT_TYPE
+Output[1] <= Input[2].DB_MAX_OUTPUT_PORT_TYPE
+Output[2] <= Input[3].DB_MAX_OUTPUT_PORT_TYPE
+Output[3] <= <GND>
+
+
+|Datapath|ARS:inst9
+ars_in[0] => ~NO_FANOUT~
+ars_in[1] => ars_out[0].DATAIN
+ars_in[2] => ars_out[1].DATAIN
+ars_in[3] => ars_out[2].DATAIN
+ars_in[3] => ars_out[3].DATAIN
+ars_out[0] <= ars_in[1].DB_MAX_OUTPUT_PORT_TYPE
+ars_out[1] <= ars_in[2].DB_MAX_OUTPUT_PORT_TYPE
+ars_out[2] <= ars_in[3].DB_MAX_OUTPUT_PORT_TYPE
+ars_out[3] <= ars_in[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Datapath|register_4bit:inst5
+Data[0] => Output.DATAB
+Data[1] => Output.DATAB
+Data[2] => Output.DATAB
+Data[3] => Output.DATAB
+load => Output.OUTPUTSELECT
+load => Output.OUTPUTSELECT
+load => Output.OUTPUTSELECT
+load => Output.OUTPUTSELECT
+Reset => Output.OUTPUTSELECT
+Reset => Output.OUTPUTSELECT
+Reset => Output.OUTPUTSELECT
+Reset => Output.OUTPUTSELECT
+Clk => Output[0]~reg0.CLK
+Clk => Output[1]~reg0.CLK
+Clk => Output[2]~reg0.CLK
+Clk => Output[3]~reg0.CLK
+Output[0] <= Output[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Output[1] <= Output[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Output[2] <= Output[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Output[3] <= Output[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Datapath|mux4x2to1:inst4
+s => f.OUTPUTSELECT
+s => f.OUTPUTSELECT
+s => f.OUTPUTSELECT
+s => f.OUTPUTSELECT
+w0[0] => f.DATAB
+w0[1] => f.DATAB
+w0[2] => f.DATAB
+w0[3] => f.DATAB
+w1[0] => f.DATAA
+w1[1] => f.DATAA
+w1[2] => f.DATAA
+w1[3] => f.DATAA
+f[0] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+

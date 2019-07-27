@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\aisan\Desktop\cng232 lab final aisan\mux8to1_4bit\simulation\qsim
+vmux8to1
+Z1 IAhEOf9PIZJUB[?1D[b6AN1
+Z2 V@cZ6gCY65KS>>TMJo3IAc0
+Z3 dC:\Users\aisan\Desktop\cng232 lab final aisan\mux8to1_4bit\simulation\qsim
+Z4 w1558208216
+Z5 8mux8to1.vo
+Z6 Fmux8to1.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 AYC7WG?m2T96gD4[bfJ4n3
+!s85 0
+Z10 !s108 1558208217.493000
+Z11 !s107 mux8to1.vo|
+Z12 !s90 -work|work|mux8to1.vo|
+!s101 -O0
+vmux8to1_vlg_check_tst
+!i10b 1
+!s100 `4he2N4H`ji_kf`om9ZUi2
+I_6@`8k<Rhz][2;5ZA4lk73
+VWT?a<cj663^2z1zHS=Ynh1
+R3
+R4
+Z13 8mux8to1.vt
+Z14 Fmux8to1.vt
+L0 73
+R7
+r1
+!s85 0
+31
+Z15 !s108 1558208217.590000
+Z16 !s107 mux8to1.vt|
+Z17 !s90 -work|work|mux8to1.vt|
+!s101 -O0
+R8
+vmux8to1_vlg_sample_tst
+!i10b 1
+!s100 NDV`X[jh_QFOI2XmSTm;X1
+IF>aO0Ele3NjQDaRGoHPF90
+VceUG2gO]ZcZzIRKAobOai2
+R3
+R4
+R13
+R14
+L0 29
+R7
+r1
+!s85 0
+31
+R15
+R16
+R17
+!s101 -O0
+R8
+vmux8to1_vlg_vec_tst
+!i10b 1
+!s100 94LQBC3[eK^ckQ[MQ;If11
+Ig5CmjLkNScOmJ<Iak]J9I2
+V6m9QM6>Td;^1k5_<mI7Pe0
+R3
+R4
+R13
+R14
+L0 221
+R7
+r1
+!s85 0
+31
+R15
+R16
+R17
+!s101 -O0
+R8

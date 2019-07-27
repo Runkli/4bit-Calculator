@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\aisan\Desktop\cng232 lab final aisan\Calculator\simulation\qsim
+vCalculator
+Z1 !s100 D8_7YF62<2z=JWe0VA;Bf2
+Z2 I=H_XgBDPBTnFSTm4MH[Eo1
+Z3 VG7dSf4g6XnC5@i:7n5[EB0
+Z4 dC:\Users\aisan\Desktop\cng232 lab final aisan\Calculator\simulation\qsim
+Z5 w1558271011
+Z6 8Calculator.vo
+Z7 FCalculator.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Calculator.vo|
+Z10 o-work work -O0
+Z11 n@calculator
+!i10b 1
+!s85 0
+Z12 !s108 1558271012.565000
+Z13 !s107 Calculator.vo|
+!s101 -O0
+vCalculator_vlg_check_tst
+!i10b 1
+Z14 !s100 XLj^oTGHl:VmCen6DSCz03
+Z15 IN4^H>2XLzl>zF:AiizMdH1
+Z16 VH1h;SBkHi6;Cf`R?[NP9[2
+R4
+R5
+Z17 8Calculator.vt
+Z18 FCalculator.vt
+L0 65
+R8
+r1
+!s85 0
+31
+Z19 !s108 1558271012.647000
+Z20 !s107 Calculator.vt|
+Z21 !s90 -work|work|Calculator.vt|
+!s101 -O0
+R10
+Z22 n@calculator_vlg_check_tst
+vCalculator_vlg_sample_tst
+!i10b 1
+Z23 !s100 ZVLVT?=b3a@7^?]aFnXBz3
+Z24 II4k1KaXVBNi>7fLJ[M:4b2
+Z25 VVfa<dCF4Q69K;2P7ega^03
+R4
+R5
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z26 n@calculator_vlg_sample_tst
+vCalculator_vlg_vec_tst
+!i10b 1
+!s100 mjl;B0B1a>>i_8gL:fFlF0
+I4cXS2L@bZl;B:Fg7@LM]`1
+Z27 VEX]g`hofk3?aBk_]:IXSA2
+R4
+R5
+R17
+R18
+Z28 L0 374
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z29 n@calculator_vlg_vec_tst

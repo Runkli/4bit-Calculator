@@ -1,0 +1,12 @@
+|ARS
+ars_in[0] => ~NO_FANOUT~
+ars_in[1] => ars_out[0].DATAIN
+ars_in[2] => ars_out[1].DATAIN
+ars_in[3] => ars_out[2].DATAIN
+ars_in[3] => ars_out[3].DATAIN
+ars_out[0] <= ars_in[1].DB_MAX_OUTPUT_PORT_TYPE
+ars_out[1] <= ars_in[2].DB_MAX_OUTPUT_PORT_TYPE
+ars_out[2] <= ars_in[3].DB_MAX_OUTPUT_PORT_TYPE
+ars_out[3] <= ars_in[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

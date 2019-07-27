@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/aisan/Desktop/cng232 lab final aisan/ARS/ARS.vhd
+source_file = 1, C:/Users/aisan/Desktop/cng232 lab final aisan/ARS/ARS_Waveform.vwf
+source_file = 1, C:/Users/aisan/Desktop/cng232 lab final aisan/ARS/db/ARS.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = ARS
+instance = comp, \ars_out[0]~output , ars_out[0]~output, ARS, 1
+instance = comp, \ars_out[1]~output , ars_out[1]~output, ARS, 1
+instance = comp, \ars_out[2]~output , ars_out[2]~output, ARS, 1
+instance = comp, \ars_out[3]~output , ars_out[3]~output, ARS, 1
+instance = comp, \ars_in[1]~input , ars_in[1]~input, ARS, 1
+instance = comp, \ars_in[2]~input , ars_in[2]~input, ARS, 1
+instance = comp, \ars_in[3]~input , ars_in[3]~input, ARS, 1
+instance = comp, \ars_in[0]~input , ars_in[0]~input, ARS, 1

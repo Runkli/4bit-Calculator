@@ -1,0 +1,169 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
+
+// DATE "05/18/2019 22:04:02"
+
+// 
+// Device: Altera EP3C16F484C6 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module ARS (
+	ars_in,
+	ars_out);
+input 	[3:0] ars_in;
+output 	[3:0] ars_out;
+
+// Design Ports Information
+// ars_in[0]	=>  Location: PIN_F14,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ars_out[0]	=>  Location: PIN_AA13,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ars_out[1]	=>  Location: PIN_M16,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ars_out[2]	=>  Location: PIN_E12,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ars_out[3]	=>  Location: PIN_B13,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ars_in[1]	=>  Location: PIN_AB14,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ars_in[2]	=>  Location: PIN_M21,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// ars_in[3]	=>  Location: PIN_D13,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \ars_in[0]~input_o ;
+wire \ars_out[0]~output_o ;
+wire \ars_out[1]~output_o ;
+wire \ars_out[2]~output_o ;
+wire \ars_out[3]~output_o ;
+wire \ars_in[1]~input_o ;
+wire \ars_in[2]~input_o ;
+wire \ars_in[3]~input_o ;
+
+
+// Location: IOOBUF_X23_Y0_N30
+cycloneiii_io_obuf \ars_out[0]~output (
+	.i(\ars_in[1]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\ars_out[0]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \ars_out[0]~output .bus_hold = "false";
+defparam \ars_out[0]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X41_Y14_N2
+cycloneiii_io_obuf \ars_out[1]~output (
+	.i(\ars_in[2]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\ars_out[1]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \ars_out[1]~output .bus_hold = "false";
+defparam \ars_out[1]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X21_Y29_N16
+cycloneiii_io_obuf \ars_out[2]~output (
+	.i(\ars_in[3]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\ars_out[2]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \ars_out[2]~output .bus_hold = "false";
+defparam \ars_out[2]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X21_Y29_N9
+cycloneiii_io_obuf \ars_out[3]~output (
+	.i(\ars_in[3]~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\ars_out[3]~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \ars_out[3]~output .bus_hold = "false";
+defparam \ars_out[3]~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X23_Y0_N8
+cycloneiii_io_ibuf \ars_in[1]~input (
+	.i(ars_in[1]),
+	.ibar(gnd),
+	.o(\ars_in[1]~input_o ));
+// synopsys translate_off
+defparam \ars_in[1]~input .bus_hold = "false";
+defparam \ars_in[1]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X41_Y14_N22
+cycloneiii_io_ibuf \ars_in[2]~input (
+	.i(ars_in[2]),
+	.ibar(gnd),
+	.o(\ars_in[2]~input_o ));
+// synopsys translate_off
+defparam \ars_in[2]~input .bus_hold = "false";
+defparam \ars_in[2]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X23_Y29_N8
+cycloneiii_io_ibuf \ars_in[3]~input (
+	.i(ars_in[3]),
+	.ibar(gnd),
+	.o(\ars_in[3]~input_o ));
+// synopsys translate_off
+defparam \ars_in[3]~input .bus_hold = "false";
+defparam \ars_in[3]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X37_Y29_N1
+cycloneiii_io_ibuf \ars_in[0]~input (
+	.i(ars_in[0]),
+	.ibar(gnd),
+	.o(\ars_in[0]~input_o ));
+// synopsys translate_off
+defparam \ars_in[0]~input .bus_hold = "false";
+defparam \ars_in[0]~input .simulate_z_as = "z";
+// synopsys translate_on
+
+assign ars_out[0] = \ars_out[0]~output_o ;
+
+assign ars_out[1] = \ars_out[1]~output_o ;
+
+assign ars_out[2] = \ars_out[2]~output_o ;
+
+assign ars_out[3] = \ars_out[3]~output_o ;
+
+endmodule
